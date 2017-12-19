@@ -25,7 +25,6 @@ See "Naming Conventions" below
 Each Major version will have 2 branches, `master` and `develop`.
 For cocos2d-x v3, the branches names will be `v3-master` and `v3-develop`, for v4 the branches names will be `v4-master` and `v4-develop`, and so on.
 
-* `master` is the stable branch.
 * `develop` is the unstable branch. All new features, bug fixes, etc, are applied first to `develop`.
 
 Once a new version is released (either Major, Minor or Revision), then `develop` branch must be merged into `master` branch. To be more specific, `master` only contains _stable_ releases. _Alpha_, _Beta_, and _RC_ versions MUST NOT be merged into `master`.
